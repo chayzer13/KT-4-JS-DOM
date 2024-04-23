@@ -1,0 +1,13 @@
+.slider {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .slider input[type=range] {
+    width: 100%;
+  }
+  
+  .slider span {
+    display: block;
+    text-align: center;
+  }
