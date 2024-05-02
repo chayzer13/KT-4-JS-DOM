@@ -8,16 +8,6 @@
 </head>
 <body>
 
-<div class="slider">
-  <input type="range" min="0" max="100" value="50" id="slider1">
-  <span id="sliderValue1">50</span>
-</div>
-
-<div class="slider">
-  <input type="range" min="0" max="100" value="25" id="slider2">
-  <span id="sliderValue2">25</span>
-</div>
-
   <div>
         <span id="rangeValue">0</span>
         <Input class="range" type="range" name = "" value="0" min="0" max="1000" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
@@ -28,7 +18,6 @@
             document.getElementById('rangeValue').innerHTML = value;
         }
     </script>
-
 
 </body>
 </html>
